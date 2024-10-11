@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro_site</title>
+</head>
+<body>
+    <center><h1>Formulário de cadastro</h1></center>
+    <form method="get" target="_blank" action="UsuarioCadastrado.html">
+        <center><label for="name">Nome: </label> <input name="name" type="text"></center><br>   
+        <center><label for="data_nascimento">Data de Nascimento: </label> <input name="data_nascimento" type="date"></center><br>
+        <center><label for="endereco">Endereço: </label> <input name="endereco" type="text"></center><br>
+        <center><label for="estado">Estado</label> 
+        <select name="estado" id="estados">
+            <option value="">Selecione seu estado...</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option Value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select>
+        </center><br>
+        <center><label for="genero">Genero: </label> <input value="Masculino" name="genero" type="radio">Masculino <input value="Feminino"  name="genero" type="radio"> Feminino </center><br>
+        <center><label for="email">E-mail:  <input type="email"></label></center><br>
+        <center><label for="senha">Senha</label> <input type="password"></center> <br>
+        <center><input value="Cadastrar" type="submit"></center>
+    </form>
+</body>
+</html>
